@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e2e0e0;
+  }
+  
+  .resume-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #698eed;
+    box-shadow: 0 4px 8px rgba(250, 250, 255, 0.1);
+  }
+  
+  h1, h2 {
+    color: #231ffc;
+  }
+  
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .section-heading {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #b4bcb3;
+    color: rgb(203, 119, 119);
+    border: none;
+    text-align: left;
+    width: 100%;
+    font-size: 1.2em;
+  }
+  
+  .section-heading:hover {
+    background-color: #0056b3;
+  }
+  
+  .section-content {
+    padding: 15px;
+    display: 20px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #007BFF;
+    text-underline-offset:bottom;
+  }
+  
+  .toggle-section.active .section-content {
+    display: block; /* Show content when active */
+  }
+  
+  @media (max-width: 600px) {
+    .resume-container {
+      padding: 10px;
+    }
+  }
+  
